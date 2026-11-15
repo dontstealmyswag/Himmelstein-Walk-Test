@@ -4,7 +4,7 @@
   "name": "Himmelstein Walk Test",
   "description": "Test patch removing the ForceSniping entity from Himmelstein.",
   "authors": ["dontstealmyswag"],
-  "frameworkVersion": "2.33.40",
-  "version": "0.1.0",
+  "frameworkVersion": "2.33.45",
+  "version": "0.1.1",
   "contentFolders": ["content"]
 }
