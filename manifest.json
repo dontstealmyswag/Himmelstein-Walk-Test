@@ -2,9 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
   "id": "dontstealmyswag.HimmelsteinWalkTest",
   "name": "Himmelstein Walk Test",
-  "description": "Test patch removing the ForceSniping entity from Himmelstein.",
-  "authors": ["dontstealmyswag"],
+  "description": "Removes Himmelstein forced-sniping restrictions and moves the default HeroSpawn to the supplied free-roam location.",
+  "authors": [
+    "dontstealmyswag"
+  ],
   "frameworkVersion": "2.33.45",
-  "version": "0.1.1",
-  "contentFolders": ["content"]
+  "version": "0.2.0",
+  "contentFolders": [
+    "content"
+  ]
 }
