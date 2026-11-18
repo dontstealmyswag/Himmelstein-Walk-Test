@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
   "id": "dontstealmyswag.HimmelsteinWalkTest",
-  "name": "Himmelstein Walk Test",
+  "name": "Himmelstein Free-roam",
   "description": "Removes Himmelstein forced-sniping restrictions and moves the default HeroSpawn to the supplied free-roam location.",
   "authors": [
     "dontstealmyswag"
