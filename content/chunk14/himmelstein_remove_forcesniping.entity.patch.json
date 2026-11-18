@@ -1,27 +1,59 @@
 {
-	"tempHash": "00526DD63BDB30CF",
-	"tbluHash": "007F4CE64FE76ACC",
-	"patch": [
-		{ "RemoveEntityByID": "738465f753e29009" },
-		{ "RemoveEntityByID": "47466187d2ddb492" },
-		{
-			"SubEntityOperation": [
-				"5c22e00a79316d93",
-				{ "RemoveAllEventConnectionsForEvent": "EventOccurred" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"4167098983dc2eb0",
-				{ "RemoveAllEventConnectionsForEvent": "EventOccurred" }
-			]
-		},
-		{
-			"SubEntityOperation": [
-				"00ab28d891c52b9f",
-				{ "RemoveAllEventConnectionsForEvent": "OnTrue" }
-			]
-		}
-	],
-	"patchVersion": 6
+  "tempHash": "00526DD63BDB30CF",
+  "tbluHash": "007F4CE64FE76ACC",
+  "patch": [
+    {
+      "RemoveEntityByID": "738465f753e29009"
+    },
+    {
+      "RemoveEntityByID": "47466187d2ddb492"
+    },
+    {
+      "SubEntityOperation": [
+        "5c22e00a79316d93",
+        {
+          "RemoveAllEventConnectionsForEvent": "EventOccurred"
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "4167098983dc2eb0",
+        {
+          "RemoveAllEventConnectionsForEvent": "EventOccurred"
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "00ab28d891c52b9f",
+        {
+          "RemoveAllEventConnectionsForEvent": "OnTrue"
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "021b12273dc284dd",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_mTransform",
+            "value": {
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": -31.21022063
+              },
+              "position": {
+                "x": -5.4345226,
+                "y": -104.82191,
+                "z": -34.75749
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
 }
